@@ -1,0 +1,19 @@
+.container {
+  position: relative;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.3rem;
+  margin: 0 auto;
+  animation: 0.5s ease-in 0s 1 fadeInCta;
+}
+
+@media (min-width: 701px) and (max-width: 1120px) {
+  .cta {
+    padding: 0 6.5rem;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,45 @@
+.container {
+  width: 16rem;
+  margin: 7rem 0 0 15%;
+  animation: 0.5s ease-in 0s 1 fadeInWelcome;
+
+  .first {
+    color: rgba(134, 134, 134, 1);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .second {
+    color: #000;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .last {
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+  }
+
+  p {
+    text-transform: uppercase;
+  }
+}
+
+@keyframes fadeInWelcome {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
